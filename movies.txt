@@ -1,0 +1,9 @@
+Title: Toy Story
+Description: A cowboy doll is profoundly challenged when his owner replaces….
+Release Year: 1995
+Rating: 8.3
+
+Title: Finding Nemo
+Description: After his son is captured in the Great Barrier Reef and taken to Sydney,…...
+Release Year: 2003
+Rating: 8.1
