@@ -6,7 +6,6 @@ public class FileUtils {
 
     public static Movie getMovieFromString(String s) {
         String[] data = s.split(";");
-        System.out.println(data.length);
         if (data.length != 4) throw new IllegalArgumentException("Invalid movie string: " + s);
 
         for (int i = 0; i < data.length;  i++) {

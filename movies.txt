@@ -1,9 +1,400 @@
-Title: Toy Story
-Description: A cowboy doll is profoundly challenged when his owner replaces….
-Release Year: 1995
-Rating: 8.3
+Title: aaaa
+Description: HashCode = 2986048
+Release Year: 2001
+Rating: 6.0
 
-Title: Finding Nemo
-Description: After his son is captured in the Great Barrier Reef and taken to Sydney,…...
-Release Year: 2003
-Rating: 8.1
+Title: aabB
+Description: HashCode = 2986048
+Release Year: 1999
+Rating: 7.7
+
+Title: abBa
+Description: HashCode = 2986048
+Release Year: 2016
+Rating: 9.3
+
+Title: abCB
+Description: HashCode = 2986048
+Release Year: 1974
+Rating: 8.4
+
+Title: bBaa
+Description: HashCode = 2986048
+Release Year: 2004
+Rating: 8.6
+
+Title: bBbB
+Description: HashCode = 2986048
+Release Year: 2000
+Rating: 5.0
+
+Title: bCBa
+Description: HashCode = 2986048
+Release Year: 2010
+Rating: 2.1
+
+Title: bCCB
+Description: HashCode = 2986048
+Release Year: 1997
+Rating: .7
+
+Title: bbbb
+Description: HashCode = 3016832
+Release Year: 1984
+Rating: 7.2
+
+Title: bbcC
+Description: HashCode = 3016832
+Release Year: 1974
+Rating: 4.7
+
+Title: bcCb
+Description: HashCode = 3016832
+Release Year: 2004
+Rating: 7.4
+
+Title: bcDC
+Description: HashCode = 3016832
+Release Year: 2010
+Rating: 9.9
+
+Title: cCbb
+Description: HashCode = 3016832
+Release Year: 1992
+Rating: 5.8
+
+Title: cCcC
+Description: HashCode = 3016832
+Release Year: 2007
+Rating: 8.2
+
+Title: cDCb
+Description: HashCode = 3016832
+Release Year: 1978
+Rating: 3.4
+
+Title: cDDC
+Description: HashCode = 3016832
+Release Year: 2014
+Rating: 4.2
+
+Title: cccc
+Description: HashCode = 3047616
+Release Year: 2010
+Rating: 2.1
+
+Title: ccdD
+Description: HashCode = 3047616
+Release Year: 1999
+Rating: 4.9
+
+Title: cdDc
+Description: HashCode = 3047616
+Release Year: 1999
+Rating: 7.3
+
+Title: cdED
+Description: HashCode = 3047616
+Release Year: 1994
+Rating: 5.4
+
+Title: dDcc
+Description: HashCode = 3047616
+Release Year: 1996
+Rating: 8.7
+
+Title: dDdD
+Description: HashCode = 3047616
+Release Year: 1983
+Rating: 1.8
+
+Title: dEDc
+Description: HashCode = 3047616
+Release Year: 1975
+Rating: 2.9
+
+Title: dEED
+Description: HashCode = 3047616
+Release Year: 2006
+Rating: 7.4
+
+Title: dddd
+Description: HashCode = 3078400
+Release Year: 1996
+Rating: 7.6
+
+Title: ddeE
+Description: HashCode = 3078400
+Release Year: 2016
+Rating: 7.3
+
+Title: deEd
+Description: HashCode = 3078400
+Release Year: 2006
+Rating: 8.5
+
+Title: deFE
+Description: HashCode = 3078400
+Release Year: 1999
+Rating: 6.9
+
+Title: eEdd
+Description: HashCode = 3078400
+Release Year: 2013
+Rating: 2.6
+
+Title: eEeE
+Description: HashCode = 3078400
+Release Year: 2011
+Rating: 9.5
+
+Title: eFEd
+Description: HashCode = 3078400
+Release Year: 1976
+Rating: 9.6
+
+Title: eFFE
+Description: HashCode = 3078400
+Release Year: 1970
+Rating: 7.4
+
+Title: eeee
+Description: HashCode = 3109184
+Release Year: 2002
+Rating: 9.2
+
+Title: eefF
+Description: HashCode = 3109184
+Release Year: 2002
+Rating: 1.7
+
+Title: efFe
+Description: HashCode = 3109184
+Release Year: 1988
+Rating: 9.4
+
+Title: efGF
+Description: HashCode = 3109184
+Release Year: 2008
+Rating: 3.2
+
+Title: fFee
+Description: HashCode = 3109184
+Release Year: 2013
+Rating: 5.9
+
+Title: fFfF
+Description: HashCode = 3109184
+Release Year: 1978
+Rating: 4.9
+
+Title: fGFe
+Description: HashCode = 3109184
+Release Year: 1973
+Rating: 4.2
+
+Title: fGGF
+Description: HashCode = 3109184
+Release Year: 1998
+Rating: 3.3
+
+Title: ffff
+Description: HashCode = 3139968
+Release Year: 2017
+Rating: 9.8
+
+Title: ffgG
+Description: HashCode = 3139968
+Release Year: 1975
+Rating: 9.1
+
+Title: fgGf
+Description: HashCode = 3139968
+Release Year: 1986
+Rating: 8.5
+
+Title: fgHG
+Description: HashCode = 3139968
+Release Year: 2015
+Rating: 7.6
+
+Title: gGff
+Description: HashCode = 3139968
+Release Year: 1996
+Rating: 5.9
+
+Title: gGgG
+Description: HashCode = 3139968
+Release Year: 2002
+Rating: 7.7
+
+Title: gHGf
+Description: HashCode = 3139968
+Release Year: 1990
+Rating: 7.2
+
+Title: gHHG
+Description: HashCode = 3139968
+Release Year: 1985
+Rating: .9
+
+Title: gggg
+Description: HashCode = 3170752
+Release Year: 2014
+Rating: 5.3
+
+Title: gghH
+Description: HashCode = 3170752
+Release Year: 1971
+Rating: 9.1
+
+Title: ghHg
+Description: HashCode = 3170752
+Release Year: 2007
+Rating: 6.3
+
+Title: ghIH
+Description: HashCode = 3170752
+Release Year: 1979
+Rating: 4.3
+
+Title: hHgg
+Description: HashCode = 3170752
+Release Year: 1988
+Rating: 7.5
+
+Title: hHhH
+Description: HashCode = 3170752
+Release Year: 1975
+Rating: 9.5
+
+Title: hIHg
+Description: HashCode = 3170752
+Release Year: 2007
+Rating: 5.4
+
+Title: hIIH
+Description: HashCode = 3170752
+Release Year: 2005
+Rating: 9.5
+
+Title: hhhh
+Description: HashCode = 3201536
+Release Year: 2014
+Rating: 7.3
+
+Title: hhiI
+Description: HashCode = 3201536
+Release Year: 2004
+Rating: 9.3
+
+Title: hiIh
+Description: HashCode = 3201536
+Release Year: 2000
+Rating: 4.1
+
+Title: hiJI
+Description: HashCode = 3201536
+Release Year: 2009
+Rating: 6.0
+
+Title: iIhh
+Description: HashCode = 3201536
+Release Year: 1980
+Rating: 2.5
+
+Title: iIiI
+Description: HashCode = 3201536
+Release Year: 1989
+Rating: 9.9
+
+Title: iJIh
+Description: HashCode = 3201536
+Release Year: 2012
+Rating: 7.8
+
+Title: iJJI
+Description: HashCode = 3201536
+Release Year: 2001
+Rating: 8.4
+
+Title: iiii
+Description: HashCode = 3232320
+Release Year: 2010
+Rating: 1.4
+
+Title: iijJ
+Description: HashCode = 3232320
+Release Year: 1975
+Rating: 9.1
+
+Title: ijJi
+Description: HashCode = 3232320
+Release Year: 2004
+Rating: 5.6
+
+Title: ijKJ
+Description: HashCode = 3232320
+Release Year: 2008
+Rating: 9.3
+
+Title: jJii
+Description: HashCode = 3232320
+Release Year: 1977
+Rating: 4.3
+
+Title: jJjJ
+Description: HashCode = 3232320
+Release Year: 2018
+Rating: 3.0
+
+Title: jKJi
+Description: HashCode = 3232320
+Release Year: 2001
+Rating: 9.1
+
+Title: jKKJ
+Description: HashCode = 3232320
+Release Year: 2014
+Rating: 3.8
+
+Title: jjjj
+Description: HashCode = 3263104
+Release Year: 2012
+Rating: .1
+
+Title: jjkK
+Description: HashCode = 3263104
+Release Year: 1988
+Rating: 5.0
+
+Title: jkKj
+Description: HashCode = 3263104
+Release Year: 1989
+Rating: 2.7
+
+Title: jkLK
+Description: HashCode = 3263104
+Release Year: 1971
+Rating: 7.5
+
+Title: kKjj
+Description: HashCode = 3263104
+Release Year: 1997
+Rating: .2
+
+Title: kKkK
+Description: HashCode = 3263104
+Release Year: 2002
+Rating: .2
+
+Title: kLKj
+Description: HashCode = 3263104
+Release Year: 2002
+Rating: 9.2
+
+Title: kLLK
+Description: HashCode = 3263104
+Release Year: 1976
+Rating: 2.4
+

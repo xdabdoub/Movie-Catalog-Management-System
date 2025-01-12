@@ -11,7 +11,6 @@ import me.yhamarsheh.moviesms.moviesms.ui.screens.YazanScreen;
 import me.yhamarsheh.moviesms.moviesms.utilities.UIUtils;
 
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 
 public class HomeScreen extends YazanScreen {
 

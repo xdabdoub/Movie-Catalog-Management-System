@@ -25,7 +25,6 @@ public class FileSystem {
             StringBuilder sb = new StringBuilder();
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                System.out.println(line);
                 if (line.isEmpty()) {
                     Movie movie;
                     try {

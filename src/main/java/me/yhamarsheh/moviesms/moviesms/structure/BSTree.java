@@ -2,11 +2,10 @@ package me.yhamarsheh.moviesms.moviesms.structure;
 
 import me.yhamarsheh.moviesms.moviesms.structure.nodes.TNode;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BSTree<T extends Comparable<T>> implements Iterable<T> {
+public class BSTree<T extends Comparable<T>> {
 
 	protected TNode root;
 
@@ -54,6 +53,19 @@ public class BSTree<T extends Comparable<T>> implements Iterable<T> {
 			if (!node.hasLeft())
 				return (node);
 			return smallest(node.left);
+		}
+		return null;
+	}
+
+	public TNode largest() {
+		return largest(root);
+	}
+
+	public TNode<T> largest(TNode node) {
+		if (node != null) {
+			if (!node.hasRight())
+				return (node);
+			return largest(node.right);
 		}
 		return null;
 	}
@@ -237,57 +249,5 @@ public class BSTree<T extends Comparable<T>> implements Iterable<T> {
 
 	public TNode getRoot() {
 		return root;
-	}
-
-	// UPDATE NEEDED
-	@Override
-	public Iterator<T> iterator() {
-		return new BSTIterator();
-	}
-
-	private class BSTIterator implements Iterator<T> {
-		private TNode current;
-		private TNode prev;
-
-		public BSTIterator() {
-			current = root;
-		}
-
-		@Override
-		public boolean hasNext() {
-			return current != null;
-		}
-
-		@Override
-		public T next() {
-			if (!hasNext()) {
-				return null;
-			}
-
-			while (current != null) {
-				if (current.left == null) {
-					T data = (T) current.data;
-					current = current.right;
-					return data;
-				} else {
-					prev = current.left;
-					while (prev.right != null && prev.right != current) {
-						prev = prev.right;
-					}
-
-					if (prev.right == null) {
-						prev.right = current;
-						current = current.left;
-					} else {
-						prev.right = null;
-						T data = (T) current.data;
-						current = current.right;
-						return data;
-					}
-				}
-			}
-
-			return null;
-		}
 	}
 }

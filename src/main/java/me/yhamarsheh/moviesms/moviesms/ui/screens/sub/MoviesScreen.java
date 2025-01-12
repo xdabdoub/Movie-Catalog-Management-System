@@ -129,7 +129,7 @@ public class MoviesScreen extends YazanScreen {
         printRanked.setPrefHeight(20);
 
         printRanked.setOnAction(e -> {
-            int i = 1;
+            int i = 0;
             for (AVLTree<Movie> movies : MoviesMS.PRIMARY_MANAGER.getMovieCatalog().getMoviesTrees()) {
                 if (movies == null) continue;
 
@@ -139,7 +139,7 @@ public class MoviesScreen extends YazanScreen {
                     continue;
                 }
 
-                printTopAndLeastRanked(movies, movies.getRoot(), movies.getRoot(), movies.getRoot());
+                printTopAndLeastRanked(movies, movies.getRoot(), movies.getRoot(), movies.getRoot(), 0);
             }
         });
 
@@ -260,22 +260,16 @@ public class MoviesScreen extends YazanScreen {
         }
     }
 
-    private void printTopAndLeastRanked(AVLTree<Movie> movies, TNode<Movie> node, TNode<Movie> top, TNode<Movie> least) {
+    private void printTopAndLeastRanked(AVLTree<Movie> movies, TNode<Movie> node, TNode<Movie> top, TNode<Movie> least, int start) {
         if (node != null) {
             if (node.left != null)
-                printTopAndLeastRanked(movies, node.left, top, least);
+                printTopAndLeastRanked(movies, node.left, top, least, 1);
+
+            if (node.right != null)
+                printTopAndLeastRanked(movies, node.right, top, least, 1);
 
             if (node.data.getRating() > top.data.getRating()) top = node;
             if (node.data.getRating() < least.data.getRating()) least = node;
-
-            if (node.right != null)
-                printTopAndLeastRanked(movies, node.right, top, least);
-        }
-
-        if (node == movies.getRoot()) {
-            System.out.println("Top Ranked: " + top.data.getTitle() + " with a rating of " + top.data.getRating());
-            System.out.println("Least Ranked: " + least.data.getTitle() + " with a rating of " + least.data.getRating());
-            return;
         }
     }
 

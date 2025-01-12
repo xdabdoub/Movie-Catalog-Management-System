@@ -16,7 +16,7 @@ public class MovieCatalog {
     }
 
     private void allocate() {
-        this.movies = new SHash<>(20);
+        this.movies = new SHash<>(10);
     }
 
     public void put(Movie movie) {
@@ -46,9 +46,13 @@ public class MovieCatalog {
 
     public int hashFunction(String title) {
         final int prime = 31;
-
         int result = 1;
-        result = prime * result + ((title == null) ? 0 : title.hashCode());
+
+        if (title != null) {
+            for (int i = 0; i < title.length(); i++) {
+                result = prime * result + title.charAt(i);
+            }
+        }
 
         return result;
     }

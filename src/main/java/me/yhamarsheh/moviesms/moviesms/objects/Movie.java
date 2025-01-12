@@ -53,9 +53,13 @@ public class Movie implements Comparable<Movie> {
     @Override
     public int hashCode() {
         final int prime = 31;
-
         int result = 1;
-        result = prime * result + ((title == null) ? 0 : title.hashCode());
+
+        if (title != null) {
+            for (int i = 0; i < title.length(); i++) {
+                result = prime * result + title.charAt(i);
+            }
+        }
 
         return result;
     }

@@ -18,19 +18,19 @@ public class SHash<T extends Comparable<T>> {
     }
 
     public void insert(T data) {
-        int index = Math.abs(hash(data));
+        int index = hash(data);
         hashTable[index].insert(data);
 
         if (getAverageHeight() > 3) resize();
     }
 
     public void delete(T data) {
-        int index = Math.abs(hash(data));
+        int index = hash(data);
         hashTable[index].delete(data);
     }
 
     public boolean contains(T data) {
-        int index = Math.abs(hash(data));
+        int index = hash(data);
         return hashTable[index].find(data) != null;
     }
 
@@ -39,7 +39,7 @@ public class SHash<T extends Comparable<T>> {
     }
 
     public int indexOf(T data) {
-        return Math.abs(hash(data));
+        return hash(data);
     }
 
     private int getFirstPrime(int x) {
@@ -59,7 +59,7 @@ public class SHash<T extends Comparable<T>> {
     }
 
     private int hash(T obj) {
-        return obj.hashCode() % m;
+        return Math.abs(obj.hashCode()) % m;
     }
 
     public AVLTree<T>[] getHashTable() {
@@ -72,7 +72,7 @@ public class SHash<T extends Comparable<T>> {
             heights += tree.height();
         }
 
-        return heights / hashTable.length;
+        return (int) Math.round((double)heights / hashTable.length);
     }
 
     public void resize() {
